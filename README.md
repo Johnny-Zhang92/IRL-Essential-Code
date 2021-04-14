@@ -66,7 +66,7 @@ python main.py  --env_name=Hopper-v2
 
 The websites of Four GAIL editions are as flows:
 
-**[SAC]**: 
+**[SAC]**: https://github.com/pranz24/pytorch-soft-actor-critic
 
 **[gail-pytorch]**:https://github.com/hcnoh/gail-pytorch.git
 
