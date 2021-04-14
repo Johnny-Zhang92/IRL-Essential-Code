@@ -1,0 +1,36 @@
+
+expert_path: ./expert_demonstrations/deterministic_SAC_HalfCheetah-v2(6000)_johnny.npz
+# Generator parameter
+policy: Gaussian # policy Type
+gamma: 0.99 #'discount factor for reward (default: 0.99)'
+tau: 0.005 # 'target smoothing coefficient(τ) (default: 0.005)'
+lr: 0.0003 # 'learning rate (default: 0.0003)'
+alpha: 0.2 # 'Temperature parameter α determines the relative importance of the
+           #  entropy term against the reward (default: 0.2)'
+num_steps: 1e7 # maximum number of steps
+gen_replay_size: 30000 # size of replay buffer for training generator
+#　Discriminator parameter
+dis_replay_size: 0 #　size of replay buffer for training discriminator
+dis_rms_lr: 0.0004 # learning rate (default: 0.0005)
+dis_rms_alpha: 1e-9 # eps (default: 1e-9)
+dis_rms_eps: 1e-9 # eps (default: 1e-9)
+dis_rms_weight_decay: 1e-4 # weight_decay (default: 1e-4)
+dis_rms_momentum: 0 #weight_decay (default: 1e-4)
+# GAIL　parameter
+# the batch is pushed in replay buffer to train generator
+segment_len: 500 # The length of generated episode segment in one iter
+expert_batch: 512 # The length of expert demonstrations batch in one iter
+dis_upd_gen_len: 64 # the batch size to expert data to update discriminator
+dis_upd_exp_len: 256 # the batch size of generator data to update discriminator
+# the steps to train generator and discriminator in one iter
+g_steps: 5 # The update number to train generator per iter
+d_steps: 1 # The update number to train discriminator per iter
+dis_interval: 5 # update discriminator net every dis_interval iters
+generator_replay_batch_size: 512 # the batch size to replay from generator memory
+discriminator_replay_batch_size: 8 # the batch size to replay from discriminator memory
+reward_baseline: 1e-8  # The reward largest reward what is given by discriminator
+
+
+
+
+
