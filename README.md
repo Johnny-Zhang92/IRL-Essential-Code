@@ -62,6 +62,10 @@ python main.py  --env_name=Hopper-v2
 6. InvertedDoublePendulum(9359)
    ![image-20210414101914232](README.assets/image-20210414101914232.png)
 
+# Generate Expert Demonstrations
+This package can be used to generate expert demonstrations.
+
+
 # Reference
 
 The websites of Four GAIL editions are as flows:
