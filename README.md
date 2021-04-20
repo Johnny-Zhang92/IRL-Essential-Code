@@ -10,7 +10,7 @@
 
 - mujoco-py==2.0.2.13
 - PyTorch==1.7.1
-
+- See more details in requirement.txt
 ## Trick:
 
 1. **Memory:** add a replay buffer to train generator, 
