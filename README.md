@@ -36,7 +36,7 @@ python main.py  --env_name=Hopper-v2
 
 
 
-1. **Hopper-v2** (expert ruturn = 3500)
+1. **Hopper-v2** (expert return = 3500)
 
 ![image-20210408143157754](README.assets/image-20210408143157754.png)
 
@@ -44,22 +44,22 @@ python main.py  --env_name=Hopper-v2
 
 ![image-20210414091849909](README.assets/image-20210414091849909.png)
 
-2. **HalfCheetah-v2**(expert ruturn = 6000)
+2. **HalfCheetah-v2**(expert return = 6000)
  ![image-20210409142601820](README.assets/image-20210409142601820.png)
  
-3. **Ant-v2** (expert ruturn =5500 )
+3. **Ant-v2** (expert return =5500 )
 
     ![image-20210412100841604](README.assets/image-20210412100841604.png)
 
-4. **Walker2d-v2** (expert ruturn = 4900)
+4. **Walker2d-v2** (expert return = 4900)
 
 ![image-20210414102348203](README.assets/image-20210414102348203.png)
 
-5. InvertedPendulum(1000)
+5. InvertedPendulum((expert return = 1000)
 
    ![image-20210413092110327](README.assets/image-20210413092110327.png)
 
-6. InvertedDoublePendulum(9359)
+6. InvertedDoublePendulum((expert return = 9359)
    ![image-20210414101914232](README.assets/image-20210414101914232.png)
 
 # Generate Expert Demonstrations
