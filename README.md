@@ -70,9 +70,9 @@ You can also download expert demonstration via link:
 
 # Reference
 
-The websites of Four GAIL editions are as flows:
-
 **[SAC(pytorch-soft-actor-critic-master)]**: https://github.com/pranz24/pytorch-soft-actor-critic
+
+The websites of Four GAIL editions are as flows:
 
 **[gail-pytorch]**:https://github.com/hcnoh/gail-pytorch.git
 
