@@ -2,7 +2,7 @@
 
 **This is a GAIL baselines what belong to Inverse Reinforcement Learning (IRL) methods.** 
 
-**As we all know GAN and GAIL are fragile, even the baseline code what is writhed by OpenAI is hard to train. Therefore,  I write a GAIL code which is PyTorch edition. Besides, Because of the fragility of GAIL, I add some trick in code, what is inevitable, and the tricks are as flows:**
+**As we all know GAN and GAIL are fragile, even the baseline code what is written by OpenAI is hard to train. Therefore,  I write a GAIL code which is PyTorch edition. Besides, Because of the fragility of GAIL, I add some trick in code, what is inevitable, and the tricks are as flows:**
 
 # Ｍy_GAIL_PyThorch
 
